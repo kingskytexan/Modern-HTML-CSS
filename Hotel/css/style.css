@@ -24,6 +24,14 @@ p {
     margin: 10px 0;
 }
 
+/*Utility Classes*/
+.container {
+    margin:auto;
+    max-width: 1100px;
+    overflow:auto;
+    padding: 0 20px;
+}
+
 /*Navbar*/
 #navbar {
     background: #333;
@@ -53,4 +61,10 @@ p {
     display: block;
     padding: 20px;
     text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a:hover.current {
+    background: #444;
+    color: #f7c08a;
 }
